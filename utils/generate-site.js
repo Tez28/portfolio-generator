@@ -30,3 +30,7 @@ const copyFile = fileCount => {
         })
     });
 };
+module.exports = {
+    writeFile: writeFile,
+    copyFile: copyFile
+};
